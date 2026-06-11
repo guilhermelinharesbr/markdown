@@ -77,3 +77,26 @@ Ex.2 com dez hífens:
 
 --------------------------------------------
 
+**Blocos de código**
+
+Para destacar código em linha, usa-se uma crase `` ` ``. Para bloco de código, utiliza-se três crases ```` ``` ````.
+
+Ex: Esta linha contém um `código`.     
+
+Ex1.1: O comando `ls` serve para listar itens.   
+
+Ex2: ```
+         Este é um bloco
+         de código.
+         ```
+
+Ex2.1:  ```
+       ls    
+       ping 8.8.8.8
+       cat arq1
+       ```
+       
+Para destacar a sintaxe em bloco de código, deve-se especificar a linguagem após as crases.   
+Ex3: ```python
+         print(f'Olá, Mundo!')
+         ``` 
