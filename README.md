@@ -1,6 +1,7 @@
 **Estudo de Markdown:**
 
 **Títulos/Cabeçalhos** 
+
 Usa-se o #. Dependendo do número de #, é definido o nível do cabeçalho de h1 a h6.
 
 Exemplos:
