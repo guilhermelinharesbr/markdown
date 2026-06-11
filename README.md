@@ -115,5 +115,19 @@ Ex:
 > Este é um exemplo de citação.  
 > Pode ter várias linhas.
 
+--------------------------------------------
+
+**Tabelas**
+
+Para criar tabelas de maneira simples, usa-se uma variação de hífens `-` e pipes `|` .
+
+Ex:
+
+| Coluna 1   | Coluna 2   |
+|------------|------------|
+| Linha 1    | Valor 1    |
+| Linha 2    | Valor 2    |
+| Linha 3    | Valor 3    |
+| Linha 4    | Valor 4    |
 
 
