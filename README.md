@@ -32,10 +32,18 @@ Usa-se o `*` ou `_`. Geralmente é mais usado o `_`, justamente para ajudar a di
 
 **Listas Não ordenadas**
 
-Listas não ordenadas são criadas usando hífens `-` , asteriscos `*` ou sinais de mais `+`.  
+Listas Não ordenadas são criadas usando hífens `-` , asteriscos `*` ou sinais de mais `+`.  
 Ex:   - Item 1  
       - Item 2  
            + Subitem 1  
             + Subitem 2
 
+--------------------------------------------
 
+**Listas Ordenadas**
+
+Listas Ordenadas utilizam números seguids de um ponto `.` . 
+Ex: 1. Primeiro item
+       2. Segundo item
+            2.1. subitem
+            2.2. subitem
