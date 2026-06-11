@@ -54,3 +54,10 @@ Ex: 1. Primeiro item
 
 Para criar links, utilizamos colchetes `[]` para o texto do link e parênteses `()` para a URL.   
 Ex: [Google](https://www.google.com.br)  
+
+--------------------------------------------
+
+**Imagens**
+
+As imagens são inseridas de forma similar aos links, mas precedidas de um pornto de exclamação ! .   
+Ex: ![Logo do Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown&logoColor=white)
