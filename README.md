@@ -42,8 +42,15 @@ Ex:   - Item 1
 
 **Listas Ordenadas**
 
-Listas Ordenadas utilizam números seguids de um ponto `.` .    
+Listas Ordenadas utilizam números seguidos de um ponto `.` .    
 Ex: 1. Primeiro item  
        2. Segundo item    
             2.1. subitem    
             2.2. subitem    
+
+--------------------------------------------
+
+**Links**
+
+Para criar links, utilizamos colchetes `[]` para o texto do link e parênteses `()` para a URL.   
+Ex: [Google](https://www.google.com.br)  
