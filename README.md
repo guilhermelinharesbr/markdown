@@ -27,3 +27,15 @@ Usa-se o `**` ou `__`. Geralmente é mais usado `**`, justamente para ajudar a d
 Usa-se o `*` ou `_`. Geralmente é mais usado o `_`, justamente para ajudar a diferenciar do negrito.
 - Ex: _itálico com sublinhado_
 - Ex2: *itálico com asterisco*
+
+--------------------------------------------
+
+**Listas Não ordenadas**
+
+Listas não ordenadas são criadas usando hífens `-` , asteriscos `*` ou sinais de mais `+`.  
+Ex:   - Item 1  
+      - Item 2  
+           + Subitem 1  
+            + Subitem 2
+
+
