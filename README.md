@@ -85,18 +85,22 @@ Ex: Esta linha contém um `código`.
 
 Ex1.1: O comando `ls` serve para listar itens.   
 
-Ex2: ```
-         Este é um bloco
-         de código.
-         ```
+Ex2: 
+```text
+Este é um bloco
+de código.
+```
 
-Ex2.1:  ```
-       ls    
-       ping 8.8.8.8
-       cat arq1
-       ```
+Ex2.1:  
+```
+ls      
+ping 8.8.8.8   
+cat arq1    
+```
        
 Para destacar a sintaxe em bloco de código, deve-se especificar a linguagem após as crases.   
-Ex3: ```python
-         print(f'Olá, Mundo!')
-         ``` 
+Ex3 para destacar um código em Python: 
+```python  
+print(f'Olá, Mundo!')
+print(f'Olá, Mundo2!')
+``` 
