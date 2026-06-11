@@ -91,7 +91,7 @@ Este é um bloco
 de código.
 ```
 
-Ex2.1:  
+Ex3:  
 ```
 ls      
 ping 8.8.8.8   
@@ -99,8 +99,21 @@ cat arq1
 ```
        
 Para destacar a sintaxe em bloco de código, deve-se especificar a linguagem após as crases.   
-Ex3 para destacar um código em Python: 
+Ex4 para destacar um código em Python: 
 ```python  
 print(f'Olá, Mundo!')
 print(f'Olá, Mundo2!')
-``` 
+```
+
+--------------------------------------------
+
+**Citações**
+
+Para adicionar uma citação, basta usar o símbolo `>`.
+
+Ex:
+> Este é um exemplo de citação.  
+> Pode ter várias linhas.
+
+
+
