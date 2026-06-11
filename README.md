@@ -59,5 +59,21 @@ Ex: [Google](https://www.google.com.br)
 
 **Imagens**
 
-As imagens são inseridas de forma similar aos links, mas precedidas de um pornto de exclamação ! .   
+As imagens são inseridas de forma similar aos links, mas precedidas de um pornto de exclamação `!` .   
 Ex: ![Logo do Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown&logoColor=white)
+
+--------------------------------------------
+
+**Linhas Horizontais**
+
+Para adicionar uma linha horizontal, basta usar _três_ ou mais hífens `-` .    
+Ex. com três hífens:  
+
+---    
+
+Ex.2 com dez hífens:    
+
+----------    
+
+--------------------------------------------
+
