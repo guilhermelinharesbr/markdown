@@ -15,14 +15,14 @@ Exemplos:
 
 **Negrito** 
 
-Usa-se o ** ou __. Geralmente é mais usado **, justamente para ajudar a diferenciar do itálico.
-Ex: **negrito**
-Ex2: __negrito__
+Usa-se o `**` ou `__`. Geralmente é mais usado `**`, justamente para ajudar a diferenciar do itálico.
+- Ex: **negrito**
+- Ex2: __negrito__
 
 --------------------------------------------
 
 **Itálico** 
 
-Usa-se o * ou _. Geralmente é mais usado o _, justamente para ajudar a diferenciar do negrito.
-Ex: _itálico_
-Ex2: *itálico*
+Usa-se o `*` ou `_`. Geralmente é mais usado o `_`, justamente para ajudar a diferenciar do negrito.
+- Ex: _itálico_
+- Ex2: *itálico*
