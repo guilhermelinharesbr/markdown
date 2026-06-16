@@ -1,5 +1,20 @@
 # Estudo de Markdown:
 
+
+**Sumário**
+- Títulos/Cabeçalhos
+- Negrito
+- Itálico
+- Listas Não ordenadas
+- Listas Ordenadas
+- Links 
+- Imagens
+- Linhas Horizontais
+- Blocos de Códigos
+- Citações
+- Tabelas
+
+
 **Títulos/Cabeçalhos** 
 
 Usa-se o #. Dependendo do número de #, é definido o nível do cabeçalho de h1 a h6.
@@ -129,5 +144,4 @@ Ex:
 | Linha 2    | Valor 2    |
 | Linha 3    | Valor 3    |
 | Linha 4    | Valor 4    |
-
 
