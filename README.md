@@ -45,6 +45,14 @@ Usa-se o `*` ou `_`. Geralmente é mais usado o `_`, justamente para ajudar a di
 
 --------------------------------------------
 
+**Riscado**(strike) 
+
+Usa-se o `~~` para riscar uma palavra ou texto, também pode ser conhecido como _tachar_.
+- Ex: ~~palavra~~
+- Ex2: ~~texto completamente riscado~~
+
+--------------------------------------------
+
 **Listas Não ordenadas**
 
 Listas Não ordenadas são criadas usando hífens `-` , asteriscos `*` ou sinais de mais `+`.  
@@ -59,7 +67,7 @@ Ex:   - Item 1
 
 Listas Ordenadas utilizam números seguidos de um ponto `.` .    
 Ex: 1. Primeiro item  
-       2. Segundo item    
+       1. Segundo item    
             2.1. subitem    
             2.2. subitem    
 
