@@ -5,6 +5,7 @@
 - Títulos/Cabeçalhos
 - Negrito
 - Itálico
+- Riscado (strike)
 - Listas Não ordenadas
 - Listas Ordenadas
 - Links 
@@ -12,6 +13,7 @@
 - Linhas Horizontais
 - Blocos de Códigos
 - Citações
+- Menções à usuários
 - Tabelas
 
 
@@ -137,6 +139,14 @@ Para adicionar uma citação, basta usar o símbolo `>`.
 Ex:
 > Este é um exemplo de citação.  
 > Pode ter várias linhas.
+
+--------------------------------------------
+
+**Menções a usuários** 
+
+Para mencionar algum usuário, pode indicar o nome do perfil logo após o símbolo `@`.
+- Ex:  [@guilhermelinharesbr](https://github.com/guilhermelinharesbr)
+- Ex2: @linhareseduardo
 
 --------------------------------------------
 
