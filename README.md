@@ -142,7 +142,7 @@ Ex:
 
 --------------------------------------------
 
-**Menções a usuários** 
+**Menções à usuários** 
 
 Para mencionar algum usuário, pode indicar o nome do perfil logo após o símbolo `@`.
 - Ex:  [@guilhermelinharesbr](https://github.com/guilhermelinharesbr)
