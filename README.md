@@ -146,7 +146,7 @@ Ex:
 
 Para mencionar algum usuário, pode indicar o nome do perfil logo após o símbolo `@`.
 - Ex:  [@guilhermelinharesbr](https://github.com/guilhermelinharesbr)
-- Ex2: @linhareseduardo
+- Ex2: [@linhareseduardo](https://github.com/linhareseduardo)
 
 --------------------------------------------
 
