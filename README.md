@@ -7,19 +7,18 @@ Repositório dedicado a centralizar, praticar e documentar o aprendizado sobre a
 
 ---
 
-## 📂 Guia de Conteúdo
+## Guia de Conteúdo
 
 Para facilitar o aprendizado, os conceitos e exemplos práticos foram divididos em arquivos separados. Os links abaixo dão acesso a cada seção:
 
 | Tópico | O que o arquivo contém | Link Direto |
 | :--- | :--- | :---: |
-| 📝 **Sintaxe Básica** | Títulos, negrito, itálico, listas, links e imagens. | [notes.md](./notes.md) |
-| 💻 **Blocos de Código** | Formatação em linha, blocos de código. | [notes.md](./notes.md) |
-| 💬 **Perguntas e Respostas** | Perguntas frenquentes sobre Markdown. | [Markdown-em-Prompts-perguntas-e-respostas.md](./Markdown-em-Prompts-perguntas-e-respostas.md) |
+|  **Sintaxe Básica** | Títulos, negrito, itálico, listas, links e imagens, etc. | [notes.md](./notes.md) |
+|  **Perguntas e Respostas** | Perguntas frenquentes sobre Markdown. | [Markdown-em-Prompts-perguntas-e-respostas.md](./Markdown-em-Prompts-perguntas-e-respostas.md) |
 
 ---
 
-## 🛠️ Como praticar
+##  Como praticar
 
 Para utilizar este repositório e testar alterações locais:
 1. Realize o clone do repositório.

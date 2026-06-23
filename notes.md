@@ -5,22 +5,30 @@
 - Títulos/Cabeçalhos
 - Negrito
 - Itálico
-- Riscado (strike)
+- Tachado (strike)(riscado)
+- Combinação de símbolos - negrito, itálico, tachado
 - Listas Não ordenadas
 - Listas Ordenadas
 - Links 
 - Imagens
 - Linhas Horizontais
+- Quebra de linha
+- Parágrafos
+- Caractere de Escape
 - Blocos de Códigos
 - Citações
 - Menções à usuários
 - Tabelas
+- Opções Não Nativas: Sublinhado
+- Editores Offline
+- Editores Online
+- Site oficial
 
 --------------------------------------------
 
 **Títulos/Cabeçalhos** 
 
-Usa-se o #. Dependendo do número de #, é definido o nível do cabeçalho de h1 a h6.
+Usa-se o `#`. Dependendo do número de `#`, é definido o nível do cabeçalho de h1 a h6. <br> É importante ter um `espaço` entre o `#` o cabeçalho em si. <br> Outra dica importante é deixar uma `linha em branco` entre o cabeçalho e o texto para deixar o seu texto organizado.
 
 Exemplos:
 # Cabeçalho h1
@@ -48,11 +56,22 @@ Usa-se o `*` ou `_`. Geralmente é mais usado o `_`, justamente para ajudar a di
 
 --------------------------------------------
 
-**Riscado**(strike) 
+**Tachado**(strike)(riscado) 
 
 Usa-se o `~~` para riscar uma palavra ou texto, também pode ser conhecido como _tachar_.
 - Ex: ~~palavra~~
 - Ex2: ~~texto completamente riscado~~
+
+--------------------------------------------
+
+**Combinação de símbolos - negrito, itálico, tachado**
+
+Para que uma palavra ou texto fique em negrito e itálico ao mesmo tempo, basta combinar os símbolos.<br> Podendo somar os `**` do negrito com o `*` do itálico ficando `***`, ou somando os underscores sendo os `__` do negrito com o `_` do itálico ficando `___`.<br> Também pode-se usar combinações mais legíveis ficando `**` mais um `_`.<br> Até mesmo é possível combinar tachado com itálico ou negrito.
+- Ex: *__Texto 1 em negrito e itálico usando 3 underscores__*.
+- Ex2: ***Texto 2 em negrito e itálico usando 3 asteriscos***.
+- Ex3: _**Texto 3 em negrito e itálico usando asteriscos e underscores**_.
+- Ex4: ~~**Texto 4 em negrito e tachado usando asteriscos e tils**~~.
+- Ex5: ~~_Texto 5 em itálico e tachado usando underscores e tils_~~.
 
 --------------------------------------------
 
@@ -92,7 +111,8 @@ Ex: ![Logo do Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-
 
 **Linhas Horizontais**
 
-Para adicionar uma linha horizontal, basta usar _três_ ou mais hífens `-` .    
+Para adicionar uma linha horizontal, basta usar _três_ ou mais hífens `-`. Também funciona com três asteriscos `***` ou três underscores `___` isolados em uma linha.
+
 Ex. com três hífens:  
 
 ---    
@@ -101,7 +121,34 @@ Ex.2 com dez hífens:
 
 ----------    
 
+Ex.3 com três asteriscos isolados em uma linha:    
+
+***
+
+Ex.4 com três underscores isolados em uma linha:    
+
+___
+
 --------------------------------------------
+
+**Quebra de Linhas**
+
+Para adicionar uma quebra de linha basta digitar dois `espaços` no final da linha ou usar a tag HTML `<br>`.
+
+-------------------------------------------
+
+**Parágrafos**
+
+Para inserir um parágrafo basta deixar `uma ou mais linhas em branco` antes de continuar escrevendo.
+
+-------------------------------------------
+
+**Caractere de Escape**
+
+O caractere de escape no markdown é o contrabarra `\`.<br>
+Ex. Aqui realmete quis exibir os símbolos * junto da palavra \*\*estudo\*\*, e não tornar a palavra em negrito. 
+
+-------------------------------------------
 
 **Blocos de código**
 
@@ -135,11 +182,19 @@ print(f'Olá, Mundo2!')
 
 **Citações**
 
-Para adicionar uma citação, basta usar o símbolo `>`.
+Para adicionar uma citação, basta usar o símbolo `>`. É possível ter níveis de citações, também conhecidas como citações aninhadas, bastando usar o `>>`, `>>>`, etc.
+
 
 Ex:
 > Este é um exemplo de citação.  
 > Pode ter várias linhas.
+
+Ex2: 
+> Agora um exemplo de citações aninhadas.
+>> Nível 2
+>>> Nível 3
+>>>> Nível 4
+>>>>> Nível 5
 
 --------------------------------------------
 
@@ -164,3 +219,26 @@ Ex:
 | Linha 3    | Valor 3    |
 | Linha 4    | Valor 4    |
 
+--------------------------------------------
+
+ **Opções Não Nativas**
+
+Não existe sintaxe nativa para `sublinhado` em Markdown.
+
+--------------------------------------------
+
+**Editores Offline**
+- [Obsidian](https://obsidian.md/)
+- [Typora](https://typora.io/)
+- [VS Code](https://code.visualstudio.com/)
+
+--------------------------------------------
+
+**Editores Online**
+- [Dillinger](https://dillinger.io/)
+- [Markdown Live Preview](https://markdownlivepreview.com/)
+
+--------------------------------------------
+
+**Site oficial**
+[Markdown - daringfireball](https://daringfireball.net/projects/markdown/)
