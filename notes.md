@@ -199,11 +199,27 @@ Ex. Lista de compras mercantil:
 
 **Links**
 
-Para criar links, utilizamos colchetes `[]` para o texto do link e parênteses `()` para a URL.
+Para criar links, utilizamos colchetes `[]` para o texto do link e parênteses `()` para a URL. 
 Ficando assim a estrutura:
-`[Texto alternativo](link-url)`
+`[Texto visível](link-url "Título opcional")`
 
-Ex: [Google](https://www.google.com.br)  
+Obs: Este `Título opcional` só aparece ao passar o mouse por cima do link.
+
+Ex: 
+[Google](https://www.google.com.br "Google")
+
+Também é possível criar link internos. Bastando usar `#` dentro do conteúdo dos parêntses `()`, ideal para navegar entre seções do mesmo artigo.
+Ficando assim a estrutura:
+`[Texto visível](#link-interno)`
+
+Obs2: Os links internos precisam ter o `#` que são usados nos cabeçalhos, podem ser cabeçalhos de qualquer nível do 1 ao 6.
+ 
+Ex. 2 - Links internos:
+[Ir para o início do artigo](#estudo-de-markdown)
+
+Ex. 3 - Arquivos internos:
+[Ir para PDF sobre Markdown](./files/markdown.pdf "Arquivo com pequena definição sobre Markdown") 
+
 
 --------------------------------------------
 
@@ -225,14 +241,20 @@ Ex. 3 - usando a tag HTML `<img>` para redimensionar a imagem do exemplo 2:
 
 Obs: O Markdown puro não suporta redimensionamento de imagens, mas pode-se usar uma tag HTML `<img>`.
 
-Ex. 4 - usando a extenção `Markdown Preview Enhanced` do VS Code para redimensionar a imagem do exemplo 2, no caso basta adicionar `{width=50px}` no final da estrtura da imagem:
-![Logo GitHub](./images/github.png "Log GitHub"){width=50px}
+Ex. 4 - usando a extenção `Markdown Preview Enhanced` do VS Code para redimensionar a imagem do exemplo 2, no caso basta adicionar `{width=50px}` no final da estrtura da imagem, porém foi optado por deixar comentado, ou seja não aparece neste artigo, pois o GitHub não reconhece esta configuração, caso queira ver o que está comentado neste artigo basta clicar em `Code` no GitHub que ele estará lá:
+<!--
+![Logo GitHub](./images/github.png "Log GitHub"){width=50px} 
+-->
 
 Obs2: A estrutura da imagem com a largura:
 `![Texto alternativo](caminho-ou-url-da-imagem "Título opcional"){width=valor-em-px height=valor-em-px}`. 
 Não é necessário usar o `width` e `height` ao mesmo tempo, pode-se usar apenas o `width` similar ao que foi usado no emxemplo 4. Sendo inclusive indicado usar apenas um dos dois para manter as proporções da imagem.
 
 Obs3: Caso seja a itenção usar em um arquivo apenas Markdown puro, é indicado que as imagens adicionadas já estejam nas porporções corretas.
+
+Ex. 5 - Imagens com links, ao clicar na imagem ela redirciona para um site específico e não o endereço da imagem:
+[![Logo do Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown&logoColor=white "Logo Markdown")](https://daringfireball.net/projects/markdown/)
+
 
 --------------------------------------------
 
