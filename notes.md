@@ -185,12 +185,15 @@ Continente
 
 **Listas de Tarefas**
 
-Li
+A Lista de Tarefas, é feita utilizando o hífen `-` no começo, um `espaço em branco`, dois colchetes `[ ]` e um `espaço em branco` dentro do colchetes, é um como se fosse um check-box. Para marcar um item como concluído basta colocar a letra `x` no lugar do `espaço em branco` que estava dentro dos colchetes.
 
-Ex:
+Ex. Lista de compras mercantil:
 
-- [ ] a
-- [x] b
+- [ ] Arroz
+- [x] Feijão
+- [x] Macarrão
+- [ ] Café
+- [x] Leite
 
 --------------------------------------------
 
