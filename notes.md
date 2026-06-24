@@ -253,8 +253,10 @@ Não é necessário usar o `width` e `height` ao mesmo tempo, pode-se usar apena
 Obs3: Caso seja a itenção usar em um arquivo apenas Markdown puro, é indicado que as imagens adicionadas já estejam nas porporções corretas.
 
 Ex. 5 - Imagens com links, ao clicar na imagem ela redirciona para um site específico e não o endereço da imagem:
-[![Logo do Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown&logoColor=white "Logo Markdown")](https://daringfireball.net/projects/markdown/)
+[![Logo do Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown&logoColor=white "Logo Markdown")](https://daringfireball.net/projects/markdown/ "Site Oficial")
 
+Obs3: A estrutura da imagem com link:
+`[![Texto alternativo](caminho-ou-url-da-imagem "Título opcional")](link-que-a-imagem-abrirá)`. 
 
 --------------------------------------------
 
