@@ -1,36 +1,52 @@
-# Estudo de Markdown:
+# Estudo de Markdown
+
+---
 
 
-**Sumário**
-- Títulos/Cabeçalhos
-- Negrito
-- Itálico
-- Tachado (strike)(riscado)
-- Combinação de símbolos - negrito, itálico, tachado
-- Listas Não ordenadas
-- Listas Ordenadas
-- Listas Aninhadas
-- Listas Combinadas
-- Listas de Definição
-- Lista de Tarefas
-- Links 
-- Imagens
-- Linhas Horizontais
-- Quebra de linha
-- Parágrafos
-- Caractere de Escape
-- Blocos de Códigos
-- Citações
-- Menções à usuários
-- Tabelas
-- Opções Não Nativas: Sublinhado
-- Editores Offline
-- Editores Online
-- Site oficial
+#### Sumário
+- [Definição](#definição)
+- [Títulos / Cabeçalhos](#títuloscabeçalhos)
+- [Negrito](#negrito)
+- [Itálico](#itálico)
+- [Tachado](#tachado)
+- [Combinação de símbolos - negrito, itálico, tachado](#combinação-de-símbolos---negrito-itálico-tachado)
+- [Listas Não ordenadas](#listas-não-ordenadas)
+- [Listas Ordenadas](#listas-ordenadas)
+- [Listas Aninhadas](#listas-aninhadas)
+- [Listas Combinadas](#listas-combinadas)
+- [Listas de Definição](#listas-de-definição)
+- [Listas de Tarefas](#listas-de-tarefas)
+- [Links](#links) 
+- [Imagens](#imagens)
+- [Linhas Horizontais](#linhas-horizontais)
+- [Quebra de Linhas](#quebra-de-linhas)
+- [Parágrafos](#parágrafos)
+- [Caractere de Escape](#caractere-de-escape)
+- [Blocos de Código](#blocos-de-código)
+- [Citações](#citações)
+- [Menções a usuários](#menções-à-usuários)
+- [Tabelas](#tabelas)
+- [Opções Não Nativas](#opções-não-nativas)
+- [Editores Offline](#editores-offline)
+- [Editores Online](#editores-online)
+- [Site oficial](#site-oficial)
+
+
 
 --------------------------------------------
 
-**Títulos/Cabeçalhos** 
+##### Definição 
+
+Markdown é uma linguagem de marcação leve criada em 2004 por John Gruber e
+Aaron Swartz, com o objetivo de permitir que pessoas escrevam textos usando uma
+formatação simples e legível em texto puro, que pode ser facilmente convertida para
+HTML e outros formatos.
+- A extenção usada é `.md`.
+- Pode ser utilizado no GitHub, Google Docs, etc.
+
+--------------------------------------------
+
+##### Títulos / Cabeçalhos
 
 Usa-se o `#`. Dependendo do número de `#`, é definido o nível do cabeçalho de h1 a h6. <br> É importante ter um `espaço` entre o `#` o cabeçalho em si. <br> Outra dica importante é deixar uma `linha em branco` entre o cabeçalho e o texto para deixar o seu texto organizado.
 
@@ -41,10 +57,22 @@ Exemplos:
 #### Cabeçalho h4
 ##### Cabeçalho h5
 ###### Cabeçalho h6
+<br>
+
+Outra forma de criar títulos é usando `=` após o texto, basta um igual, mas pode usar mais que o resultado é o mesmo, é o equivale a um h1.
+Já para títulos h2, usa-se `-` após o texto.
+
+Ex. 2 - usando `=` para h1 e `-` para h2:
+
+Cabeçalho h1
+=
+
+Cabeçalho h2
+-
 
 --------------------------------------------
 
-**Negrito** 
+##### Negrito 
 
 Usa-se o `**` ou `__`. Geralmente é mais usado `**`, justamente para ajudar a diferenciar do itálico.
 - Ex: **negrito com asteriscos**
@@ -52,7 +80,7 @@ Usa-se o `**` ou `__`. Geralmente é mais usado `**`, justamente para ajudar a d
 
 --------------------------------------------
 
-**Itálico** 
+##### Itálico 
 
 Usa-se o `*` ou `_`. Geralmente é mais usado o `_`, justamente para ajudar a diferenciar do negrito.
 - Ex: _itálico com sublinhado_
@@ -60,15 +88,15 @@ Usa-se o `*` ou `_`. Geralmente é mais usado o `_`, justamente para ajudar a di
 
 --------------------------------------------
 
-**Tachado**(strike)(riscado) 
+##### Tachado 
 
-Usa-se o `~~` para riscar uma palavra ou texto, também pode ser conhecido como _tachar_.
+Também conhecido como `strike/riscado`, usa-se o `~~` para riscar uma palavra ou texto, também pode ser conhecido como _tachar_.
 - Ex: ~~palavra~~
 - Ex2: ~~texto completamente riscado~~
 
 --------------------------------------------
 
-**Combinação de símbolos - negrito, itálico, tachado**
+##### Combinação de símbolos - negrito, itálico, tachado
 
 Para que uma palavra ou texto fique em negrito e itálico ao mesmo tempo, basta combinar os símbolos.<br> Podendo somar os `**` do negrito com o `*` do itálico ficando `***`, ou somando os underscores sendo os `__` do negrito com o `_` do itálico ficando `___`.<br> Também pode-se usar combinações mais legíveis ficando `**` mais um `_`.<br> Até mesmo é possível combinar tachado com itálico ou negrito.
 - Ex: *__Texto 1 em negrito e itálico usando 3 underscores__*.
@@ -79,7 +107,7 @@ Para que uma palavra ou texto fique em negrito e itálico ao mesmo tempo, basta 
 
 --------------------------------------------
 
-**Listas Não ordenadas**
+##### Listas Não ordenadas
 
 Listas Não ordenadas são criadas usando hífens `-` , asteriscos `*` ou sinais de mais `+`. 
 Para que os itens perteçam a mesma lista é preciso que eles utilizem o mesmo símbolo, se misturar os `-` com `*` ou `+` eles ficaram com uma distância um pouco maior entre si.
@@ -104,7 +132,7 @@ Ex.3 - Mostrando como um item com símbolo diferente fica mais distante dos dema
 
 --------------------------------------------
 
-**Listas Ordenadas**
+##### Listas Ordenadas
 
 Listas Ordenadas utilizam `números` seguidos de um ponto `.`. 
 Para o Markdown é irrelevante se os números estão em ordem numérica, pois para ele se tiver um número seguido de um `.` significa que é uma lista, com o detalhe que a lista começará baseada no primeiro item dela.    
@@ -124,7 +152,7 @@ Ex2:
   
 --------------------------------------------
 
-**Listas Aninhadas**
+##### Listas Aninhadas
 
 Listas Aninhadas são listas dentro de outras listas. Pode-se criar uma usando `dois espaços em branco` ou um `TAB`. Para que encerrar a lista basta deixar uma linha em branco, com isso o que for digitado não estará mais na lista.
 
@@ -140,7 +168,7 @@ Ex. - Lista Aninhada Não ordenada, usando tanto dois espaços em branco quanto 
 
 --------------------------------------------
 
-**Listas Combinadas**
+##### Listas Combinadas
 
 Listas Combinadas são listas que misturam lista ordenadas com listas não ordenadas.
 
@@ -163,7 +191,7 @@ Ex de cidades mais populosas do países:
   
 --------------------------------------------
 
-**Listas de Definição**
+##### Listas de Definição
 
 Listas de Definição são usadas para dar uma explicação/definição de um item, como se fosse um pequeno dicionário. 
 Elas não tem suporte nativo do Markdown, porém dependendo de onde está sendo escrito o Markdown ela pode funcionar, no VS Code funciona por causa da extensão `Markdown Preview Enhanced`.
@@ -183,7 +211,7 @@ Continente
 
 --------------------------------------------
 
-**Listas de Tarefas**
+##### Listas de Tarefas
 
 A Lista de Tarefas, é feita utilizando o hífen `-` no começo, um `espaço em branco`, dois colchetes `[ ]` e um `espaço em branco` dentro do colchetes, é um como se fosse um check-box. Para marcar um item como concluído basta colocar a letra `x` no lugar do `espaço em branco` que estava dentro dos colchetes.
 
@@ -197,7 +225,7 @@ Ex. Lista de compras mercantil:
 
 --------------------------------------------
 
-**Links**
+##### Links 
 
 Para criar links, utilizamos colchetes `[]` para o texto do link e parênteses `()` para a URL. 
 Ficando assim a estrutura:
@@ -227,7 +255,7 @@ Ex. 3 - Arquivos internos:
 
 --------------------------------------------
 
-**Imagens**
+##### Imagens
 
 As imagens são inseridas de forma similar aos links, mas precedidas de um pornto de exclamação `!`. Pode-se colocar de maneira opcional um título entre aspas duplas `" "`. 
 
@@ -267,7 +295,7 @@ Obs4: A estrutura da imagem com link:
 
 --------------------------------------------
 
-**Linhas Horizontais**
+##### Linhas Horizontais
 
 Para adicionar uma linha horizontal, basta usar _três_ ou mais hífens `-`. Também funciona com três asteriscos `***` ou três underscores `___` isolados em uma linha.
 
@@ -289,26 +317,26 @@ ___
 
 --------------------------------------------
 
-**Quebra de Linhas**
+##### Quebra de Linhas
 
 Para adicionar uma quebra de linha basta digitar dois `espaços` no final da linha ou usar a tag HTML `<br>`.
 
 -------------------------------------------
 
-**Parágrafos**
+##### Parágrafos
 
 Para inserir um parágrafo basta deixar `uma ou mais linhas em branco` antes de continuar escrevendo.
 
 -------------------------------------------
 
-**Caractere de Escape**
+##### Caractere de Escape
 
 O caractere de escape no markdown é o contrabarra `\`.<br>
 Ex. Aqui realmete quis exibir os símbolos * junto da palavra \*\*estudo\*\*, e não tornar a palavra em negrito. 
 
 -------------------------------------------
 
-**Blocos de código**
+##### Blocos de código
 
 Para destacar código em linha, usa-se uma crase `` ` ``. Para bloco de código, utiliza-se três crases ```` ``` ````.
 
@@ -338,7 +366,7 @@ print(f'Olá, Mundo2!')
 
 --------------------------------------------
 
-**Citações**
+##### Citações
 
 Para adicionar uma citação, basta usar o símbolo `>`. É possível ter níveis de citações, também conhecidas como citações aninhadas, bastando usar o `>>`, `>>>`, etc.
 
@@ -356,7 +384,7 @@ Ex2:
 
 --------------------------------------------
 
-**Menções à usuários** 
+##### Menções à usuários
 
 Para mencionar algum usuário, pode indicar o nome do perfil logo após o símbolo `@`.
 - Ex:  [@guilhermelinharesbr](https://github.com/guilhermelinharesbr)
@@ -364,7 +392,7 @@ Para mencionar algum usuário, pode indicar o nome do perfil logo após o símbo
 
 --------------------------------------------
 
-**Tabelas**
+##### Tabelas
 
 Para criar tabelas de maneira simples, usa-se uma variação de hífens `-` e pipes `|` .
 
@@ -379,24 +407,25 @@ Ex:
 
 --------------------------------------------
 
- **Opções Não Nativas**
+##### Opções Não Nativas
 
 Não existe sintaxe nativa para `sublinhado` em Markdown.
 
 --------------------------------------------
 
-**Editores Offline**
+##### Editores Offline
 - [Obsidian](https://obsidian.md/)
 - [Typora](https://typora.io/)
 - [VS Code](https://code.visualstudio.com/)
 
 --------------------------------------------
 
-**Editores Online**
+##### Editores Online
 - [Dillinger](https://dillinger.io/)
 - [Markdown Live Preview](https://markdownlivepreview.com/)
+- [StackEdit](https://stackedit.io/)
 
 --------------------------------------------
 
-**Site oficial**
+##### Site oficial
 [Markdown - daringfireball](https://daringfireball.net/projects/markdown/)
