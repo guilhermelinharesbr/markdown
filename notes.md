@@ -199,15 +199,40 @@ Ex. Lista de compras mercantil:
 
 **Links**
 
-Para criar links, utilizamos colchetes `[]` para o texto do link e parênteses `()` para a URL.   
+Para criar links, utilizamos colchetes `[]` para o texto do link e parênteses `()` para a URL.
+Ficando assim a estrutura:
+`[Texto alternativo](link-url)`
+
 Ex: [Google](https://www.google.com.br)  
 
 --------------------------------------------
 
 **Imagens**
 
-As imagens são inseridas de forma similar aos links, mas precedidas de um pornto de exclamação `!` .   
-Ex: ![Logo do Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown&logoColor=white)
+As imagens são inseridas de forma similar aos links, mas precedidas de um pornto de exclamação `!`. Pode-se colocar de maneira opcional um título entre aspas duplas `" "`. 
+
+Ficando assim a estrutura:
+`![Texto alternativo](caminho-ou-url-da-imagem "Título opcional")`
+
+Ex. de imagem com link da internet: 
+![Logo do Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown&logoColor=white "Logo Markdown")
+
+Ex. 2 - imagem local: 
+![Logo GitHub](./images/github.png "Log GitHub")
+
+Ex. 3 - usando a tag HTML `<img>` para redimensionar a imagem do exemplo 2:
+<img src="./images/github.png" alt="Logo GitHub" title="Logo GitHub" width="50">
+
+Obs: O Markdown puro não suporta redimensionamento de imagens, mas pode-se usar uma tag HTML `<img>`.
+
+Ex. 4 - usando a extenção `Markdown Preview Enhanced` do VS Code para redimensionar a imagem do exemplo 2, no caso basta adicionar `{width=50px}` no final da estrtura da imagem:
+![Logo GitHub](./images/github.png "Log GitHub"){width=50px}
+
+Obs2: A estrutura da imagem com a largura:
+`![Texto alternativo](caminho-ou-url-da-imagem "Título opcional"){width=valor-em-px height=valor-em-px}`. 
+Não é necessário usar o `width` e `height` ao mesmo tempo, pode-se usar apenas o `width` similar ao que foi usado no emxemplo 4. Sendo inclusive indicado usar apenas um dos dois para manter as proporções da imagem.
+
+Obs3: Caso seja a itenção usar em um arquivo apenas Markdown puro, é indicado que as imagens adicionadas já estejam nas porporções corretas.
 
 --------------------------------------------
 
