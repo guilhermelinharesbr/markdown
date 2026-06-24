@@ -9,6 +9,10 @@
 - Combinação de símbolos - negrito, itálico, tachado
 - Listas Não ordenadas
 - Listas Ordenadas
+- Listas Aninhadas
+- Listas Combinadas
+- Listas de Definição
+- Lista de Tarefas
 - Links 
 - Imagens
 - Linhas Horizontais
@@ -77,21 +81,116 @@ Para que uma palavra ou texto fique em negrito e itálico ao mesmo tempo, basta 
 
 **Listas Não ordenadas**
 
-Listas Não ordenadas são criadas usando hífens `-` , asteriscos `*` ou sinais de mais `+`.  
-Ex:   - Item 1  
-      - Item 2  
-           + Subitem 1  
-            + Subitem 2
+Listas Não ordenadas são criadas usando hífens `-` , asteriscos `*` ou sinais de mais `+`. 
+Para que os itens perteçam a mesma lista é preciso que eles utilizem o mesmo símbolo, se misturar os `-` com `*` ou `+` eles ficaram com uma distância um pouco maior entre si.
+
+Ex. - Lista não ordenada simples:
+- Brasil
+- Argentina
+- Uruguai
+
+Ex.2 - Lista mistrurando símbolos:
+- Item 1 com hífen 
+  - Item 2 com hífen 
+     + Subitem 1 com sinal de mais 
+     + Subitem 2 com sinal de mais
+       * Subitem 3 com asterisco 
+
+Ex.3 - Mostrando como um item com símbolo diferente fica mais distante dos demais:
+* Fortaleza
+- Recife 
+- Salvador  
+- Natal
 
 --------------------------------------------
 
 **Listas Ordenadas**
 
-Listas Ordenadas utilizam números seguidos de um ponto `.` .    
-Ex: 1. Primeiro item  
-       1. Segundo item    
-            2.1. subitem    
-            2.2. subitem    
+Listas Ordenadas utilizam `números` seguidos de um ponto `.`. 
+Para o Markdown é irrelevante se os números estão em ordem numérica, pois para ele se tiver um número seguido de um `.` significa que é uma lista, com o detalhe que a lista começará baseada no primeiro item dela.    
+
+Ex: 
+1. Primeiro item  
+2. Segundo item
+3. Terceiro item
+  3.1. Subitem 1   
+  3.2. Subitem 2  
+
+Ex2:
+1. Item 1 e foi escrito o número 1
+8. Item 2, mas foi escrito o número `8.`, só para mostrar que a lista segue a sequência do primeiro item da lista
+47. Item 3, mas foi escrito o número `47.`, só para mostrar que a lista segue a sequência do primeiro item da lista
+96. Item 4, mas foi escrito o número `96.`, só para mostrar que a lista segue a sequência do primeiro item da lista
+  
+--------------------------------------------
+
+**Listas Aninhadas**
+
+Listas Aninhadas são listas dentro de outras listas. Pode-se criar uma usando `dois espaços em branco` ou um `TAB`. Para que encerrar a lista basta deixar uma linha em branco, com isso o que for digitado não estará mais na lista.
+
+Ex. - Lista Aninhada Não ordenada, usando tanto dois espaços em branco quanto TAB:
+- América do Sul
+  - Brasil
+    - Nordeste
+      - Ceará
+        - Fortaleza 
+  - Argentina
+  - Uruguai
+  - Paraguai
+
+--------------------------------------------
+
+**Listas Combinadas**
+
+Listas Combinadas são listas que misturam lista ordenadas com listas não ordenadas.
+
+Ex de cidades mais populosas do países:
+1. Brasil
+     - São Paulo
+     - Rio de Janeiro
+     - Brasília
+     - Fortaleza
+2. Argentina
+     - Buenos Aires
+     - Córdoba
+     - Rosário
+3. Uruguai
+     - Montevidéu
+     - Salto
+4. Paraguai
+     - Assunção
+     - Ciudad del Este
+  
+--------------------------------------------
+
+**Listas de Definição**
+
+Listas de Definição são usadas para dar uma explicação/definição de um item, como se fosse um pequeno dicionário. 
+Elas não tem suporte nativo do Markdown, porém dependendo de onde está sendo escrito o Markdown ela pode funcionar, no VS Code funciona por causa da extensão `Markdown Preview Enhanced`.
+Para que ela funcione é preciso que seja digitado o item, depois na `linha seguinte` digitado `:`, depois um `espaço em branco` entre os `:` e o começo da definição do item. 
+
+Ex:
+
+Capital
+: Cidade onde se localiza o governo central de um estado.
+
+País
+: Território delimitado com Governo próprio.
+
+Continente
+: Grande extensão territorial que agrupa vários países.
+
+
+--------------------------------------------
+
+**Listas de Tarefas**
+
+Li
+
+Ex:
+
+- [ ] a
+- [x] b
 
 --------------------------------------------
 
