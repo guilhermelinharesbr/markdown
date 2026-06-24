@@ -206,7 +206,8 @@ Ficando assim a estrutura:
 
 Obs: Este `Título opcional` só aparece ao passar o mouse por cima do link.
 
-Ex: 
+Ex:
+ 
 [Google](https://www.google.com.br "Google")
 
 Também é possível criar link internos. Bastando usar `#` dentro do conteúdo dos parêntses `()`, ideal para navegar entre seções do mesmo artigo.
