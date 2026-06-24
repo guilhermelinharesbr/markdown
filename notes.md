@@ -201,6 +201,7 @@ Ex. Lista de compras mercantil:
 
 Para criar links, utilizamos colchetes `[]` para o texto do link e parênteses `()` para a URL. 
 Ficando assim a estrutura:
+
 `[Texto visível](link-url "Título opcional")`
 
 Obs: Este `Título opcional` só aparece ao passar o mouse por cima do link.
@@ -215,9 +216,11 @@ Ficando assim a estrutura:
 Obs2: Os links internos precisam ter o `#` que são usados nos cabeçalhos, podem ser cabeçalhos de qualquer nível do 1 ao 6.
  
 Ex. 2 - Links internos:
+
 [Ir para o início do artigo](#estudo-de-markdown)
 
 Ex. 3 - Arquivos internos:
+
 [Ir para PDF sobre Markdown](./files/markdown.pdf "Arquivo com pequena definição sobre Markdown") 
 
 
@@ -228,6 +231,7 @@ Ex. 3 - Arquivos internos:
 As imagens são inseridas de forma similar aos links, mas precedidas de um pornto de exclamação `!`. Pode-se colocar de maneira opcional um título entre aspas duplas `" "`. 
 
 Ficando assim a estrutura:
+
 `![Texto alternativo](caminho-ou-url-da-imagem "Título opcional")`
 
 Ex. de imagem com link da internet: 
@@ -247,15 +251,17 @@ Ex. 4 - usando a extenção `Markdown Preview Enhanced` do VS Code para redimens
 -->
 
 Obs2: A estrutura da imagem com a largura:
+
 `![Texto alternativo](caminho-ou-url-da-imagem "Título opcional"){width=valor-em-px height=valor-em-px}`. 
 Não é necessário usar o `width` e `height` ao mesmo tempo, pode-se usar apenas o `width` similar ao que foi usado no emxemplo 4. Sendo inclusive indicado usar apenas um dos dois para manter as proporções da imagem.
 
 Obs3: Caso seja a itenção usar em um arquivo apenas Markdown puro, é indicado que as imagens adicionadas já estejam nas porporções corretas.
 
-Ex. 5 - Imagens com links, ao clicar na imagem ela redirciona para um site específico e não o endereço da imagem:
+Ex. 5 - Imagens com links, ao clicar na imagem ela redireciona para um site específico e não o endereço da imagem:
 [![Logo do Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown&logoColor=white "Logo Markdown")](https://daringfireball.net/projects/markdown/ "Site Oficial")
 
-Obs3: A estrutura da imagem com link:
+Obs4: A estrutura da imagem com link:
+
 `[![Texto alternativo](caminho-ou-url-da-imagem "Título opcional")](link-que-a-imagem-abrirá)`. 
 
 --------------------------------------------
