@@ -16,7 +16,9 @@
 - [Listas Combinadas](#listas-combinadas)
 - [Listas de Definição](#listas-de-definição)
 - [Listas de Tarefas](#listas-de-tarefas)
-- [Links](#links) 
+- [Links](#links)
+- [Links de Referência](#links-de-referência)
+- [Links para Email e Telefone](#links-para-email-e-telefone)
 - [Imagens](#imagens)
 - [Linhas Horizontais](#linhas-horizontais)
 - [Quebra de Linhas](#quebra-de-linhas)
@@ -41,8 +43,9 @@ Markdown é uma linguagem de marcação leve criada em 2004 por John Gruber e
 Aaron Swartz, com o objetivo de permitir que pessoas escrevam textos usando uma
 formatação simples e legível em texto puro, que pode ser facilmente convertida para
 HTML e outros formatos.
-- A extenção usada é `.md`.
-- Pode ser utilizado no GitHub, Google Docs, etc.
+- A extenção usada é `.md`;
+- Pode ser utilizado no GitHub, Google Docs, Reddit, Discord, etc;
+- Aceita tags HTML
 
 --------------------------------------------
 
@@ -238,7 +241,7 @@ Ex:
  
 [Google](https://www.google.com.br "Google")
 
-Também é possível criar link internos. Bastando usar `#` dentro do conteúdo dos parêntses `()`, ideal para navegar entre seções do mesmo artigo.
+Também é possível criar link internos. Bastando usar `#` dentro do conteúdo dos parêntses `()`, ideal para navegar entre seções do mesmo artigo. Também conhecidos como âncora.
 Ficando assim a estrutura:
 `[Texto visível](#link-interno)`
 
@@ -251,6 +254,48 @@ Ex. 2 - Links internos:
 Ex. 3 - Arquivos internos:
 
 [Ir para PDF sobre Markdown](./files/markdown.pdf "Arquivo com pequena definição sobre Markdown") 
+
+--------------------------------------------
+
+##### Links de Referência
+
+Os Links de Referência permitem que seja defido um link uma vez e seja reutilizado em várias partes do seu documento. Funciona similar a uma variável de linguagem de programção. Para funcionar é preciso colocar todas as informações entre colchetes `[]`.
+Ficando assim a estrutura:
+
+`[Texto visível][número]`
+`[1][URL]`
+
+Ex:
+
+[Google][1]
+
+[1]: https://www.google.com
+
+Mostrando o que foi escrito no exemplo acima:
+```markdown
+[Google][1]
+
+[1]: https://www.google.com
+```
+
+Usando o link de referência `[1]` novamente, sem precisar escrever ele completamente: [Google][1].
+
+--------------------------------------------
+
+##### Links para Email e Telefone
+
+Os Links para emails e telefones permitem criar links que abrem que abrem o cliente de email ou discam um número de telefone.
+
+Ficando assim a estrutura para emails:
+`[Texto visível](mailto:email@exemplo.com)`
+
+Ficando assim a estrutura para telefones:
+`[Texto visível](tel:+5585999887766)`
+
+Ex: 
+[Enviar email para w3schools](mailto:help@w3schools.com)
+
+[Discar telefone Energy Telecom](tel:+558535335800)
 
 
 --------------------------------------------
@@ -404,12 +449,34 @@ Ex:
 | Linha 2    | Valor 2    |
 | Linha 3    | Valor 3    |
 | Linha 4    | Valor 4    |
+  
+  
+É possível deixar o conteúdo da tabela alinhado a esquerda, a direita e centralizado. Para isso, usa-se os dois pontos `:` na linha abaixo do nome da coluna.
+Sintaxe:
+`|:---------|` para alinhar a esquerda(default). 
+`|---------:|` para alinhar a direita.
+`|:--------:|` para centralizar.
+
+Obs: É irrelevante a quantidade de hífens `-` para alinhar os itens em uma tabela.
+
+Ex. 2 - alinhando conteúdo centralizado e a direita:
+
+| Centralizado | Alinhado a direita |
+|:------------:|-------------------:|
+| Linha 1      | Valor 1            |
+| Linha 2      | Valor 2            |
+| Linha 3      | Valor 3            |
+| Linha 4      | Valor 4            |
+
+
 
 --------------------------------------------
 
 ##### Opções Não Nativas
 
-Não existe sintaxe nativa para `sublinhado` em Markdown.
+- Não existe sintaxe nativa para `sublinhado` em Markdown. 
+- Não existe sintaxe nativa para `emojis` em Markdown, mas caso o seu visualizador tenha ele deverá exibir normalmente, a extensão `Markdown Preview Enhanced` do VS Code e o próprio GitHub já possuem, um exemplo de emoji em Markdown seria: `:sunglassses:` :sunglasses:.
+
 
 --------------------------------------------
 
