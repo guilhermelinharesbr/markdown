@@ -293,9 +293,9 @@ Ficando assim a estrutura para telefones:
 `[Texto visível](tel:+5585999887766)`
 
 Ex: 
-[Enviar email para w3schools](mailto:help@w3schools.com)
+[Enviar email para Empresa X](mailto:help@w3schools.com)
 
-[Discar telefone Energy Telecom](tel:+558535335800)
+[Discar telefone Empresa Y](tel:+558535335800)
 
 
 --------------------------------------------
