@@ -1,7 +1,7 @@
 #  Estudos de Markdown
 
 ![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20Progresso-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Concluído-blue?style=for-the-badge)
 
 Repositório dedicado a centralizar, praticar e documentar o aprendizado sobre a sintaxe do Markdown. O objetivo é manter um guia de consulta rápida e visual para a estruturação de documentações no GitHub.
 
